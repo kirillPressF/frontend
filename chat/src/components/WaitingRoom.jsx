@@ -5,7 +5,7 @@ const [userName, setUserName] = useState();
 const [chatName, setChatName] = useState();
 
     const onSubmit = (e) =>{
-        e.PreventDefault();
+        e.preventDefault();
         joinChat(userName, chatName);
     }
     return(
